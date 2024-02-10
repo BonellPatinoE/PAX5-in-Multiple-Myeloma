@@ -286,7 +286,7 @@ ISS
 nrow(ids)
 ids1
 unique(ids$patient)
-ids1<-ids%>%filter(visit==1) # base line
+#ids1<-ids%>%filter(visit==1) # base line
 ids1
 nrow(ids1)
 nrow(ISS)
@@ -351,7 +351,6 @@ convert_df
 
 ISS_1vs2
 
-temp <- as.data.frame(assay(vsd))
 temp$GENE <- res1$GENE
 temp$GENE_NAME <- res1$GENE_NAME
 ncol(temp)
@@ -399,7 +398,7 @@ temp_bar2%>%ggplot(aes(ISS, temp_flip)) +
                    breaks = 1:3,
                    labels = c("ISS 1","ISS 2", "ISS 3")) +
   scale_y_continuous(name = expression("Normalized log "[2]*" (Counts)")) +
-  ggtitle(label = "CD70 expression based on ISS stage")+
+  ggtitle(label = "PAX5 expression based on ISS stage")+
   ggpubr::stat_pvalue_manual(stat_pvalue, label = "p.signif") +
   theme_minimal()
 
