@@ -1,5 +1,5 @@
 # PAX5-in-Multiple-Myeloma
-PAX5-in-Myeloma RNAseq data analysis about PAX5 expression in primary samples from coMMpass (MMRF) IA19.
+PAX5-in-Myeloma RNAseq data analysis about PAX5 expression in primary samples from coMMpass (MMRF) IA19 in the pre-print: Targeting high-risk multiple myeloma genotypes with optimized anti-CD70 CAR-T cells. doi: https://doi.org/10.1101/2024.02.24.581875. https://www.biorxiv.org/content/10.1101/2024.02.24.581875v1
 
 Prior bioinformatic analysis performed at Wiita Lab at the University of California, San Francisco (UCSF) on RNAseq data showed higher CD70 expression in relapsed myeloma patients. Based on a machine learning model run thereafter, we found that one of the negative regulators of CD70 is PAX5. Here we analyzed PAX5 expression in RNAseq data from coMMpass dataset (IA19) in CD138+ cells from primary samples.
 
